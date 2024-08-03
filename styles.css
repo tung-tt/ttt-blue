@@ -1,0 +1,34 @@
+
+body{
+font-family:helvetica;
+background-color:#2c7ae8;
+color:white;
+text-align:left;
+margin:2em;
+}
+
+h1{
+  text-align:center;
+  margin:1em;
+}
+
+form{
+  margin:1em;
+}
+label{
+  display:block;
+
+}
+
+input, textarea{
+  color:blue;
+}
+
+::placeholder{
+  color:#2f78de;
+  opacity:0.65;
+}
+
+option{
+  color:#2f78de;
+}
