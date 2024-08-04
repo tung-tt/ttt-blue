@@ -1,0 +1,76 @@
+<<<<<<< HEAD:styles.css
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+body{
+font-family:'Courier New', Courier, monospace;
+background-color:#2c7ae8;
+color:white;
+text-align:left;
+margin:2em;
+}
+
+h1{
+  text-align:left;
+  margin:1em;
+}
+p{
+  margin:0.25em;
+}
+form{
+  margin:2em;
+}
+label{
+  display:block;
+  margin:0.5em;
+}
+
+input, textarea{
+  color:blue;
+}
+
+::placeholder{
+  color:#2f78de;
+  opacity:0.65;
+}
+
+option{
+  color:#2f78de;
+=======
+
+body{
+font-family:'Courier New', Courier, monospace;
+background-color:#2c7ae8;
+color:white;
+margin-left:25%;
+}
+
+h1{
+  text-align:left;
+  margin:1em;
+}
+p{
+  margin:0.25em;
+}
+form{
+  margin:2em;
+}
+label{
+  display:block;
+  margin:0.5em;
+}
+
+input, textarea{
+  color:blue;
+}
+
+::placeholder{
+  color:#2f78de;
+  opacity:0.65;
+}
+
+option{
+  color:#2f78de;
+>>>>>>> 96c98afed6c5c14488bca13d2841570ccecee6d4:blue_survey/bluestyles.css
+}
