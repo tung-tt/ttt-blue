@@ -6,9 +6,9 @@ img{
 	padding-top: 1em;
 	margin: 0 auto ;
 	display: flex;
-	width: 30%;
+	width: 20%;
 	border-radius: 50%;
-	filter: sepia(100%);
+	filter: sepia(80%%);
 
 }
 label{
@@ -34,6 +34,7 @@ a{
 	font-size:1em;
 	color:#ffefd9;
 	text-decoration:bold;
+	letter-spacing: 0.15em;
 }
 a:visited{
 	text-decoration: none;
