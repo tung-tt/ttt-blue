@@ -2,19 +2,12 @@ body{
 font-family:'Courier New', Courier, monospace;
 background-color:#2c7ae8;
 color:white;
-text-align:left;
-margin:2em;
+width: 20%;
+margin: auto;
+text-align: center;
 }
-
 h1{
-  text-align:left;
-  margin:1em;
-}
-p{
-  margin:0.25em;
-}
-form{
-  margin:2em;
+  margin-top: 50%;
 }
 label{
   display:block;
@@ -23,8 +16,9 @@ label{
 
 input, textarea{
   color:blue;
+  border-radius: 5px;
+  border: 1px solid white;
 }
-
 ::placeholder{
   color:#2f78de;
   opacity:0.65;
@@ -32,11 +26,4 @@ input, textarea{
 
 option{
   color:#2f78de;
-}
-
-body{
-font-family:'Courier New', Courier, monospace;
-background-color:#2c7ae8;
-color:white;
-margin-left:25%;
 }
