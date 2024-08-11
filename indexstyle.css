@@ -6,30 +6,31 @@ img{
 	margin: 0 auto ;
 	margin-top: 10%;
 	display: flex;
-	width: 10em;
-	height: 10em;
+	width: 12em;
+	height: 12em;
 	object-fit: cover;
 	border-radius: 50%;
 	filter: sepia(80%);
-
 }
-label{
-	padding: 5%;
-	margin: 0%;
+header{
+	width: 80%;
+	max-width: 750px;
+	margin: 10px auto;
 }
 body{
 	text-align: center;
-	background-color:#0d1117;
+	background-color:#101322;
 	color:#ffefd9;
 	font-family:"Montserrat",sans-serif, 'Courier New', Courier, monospace;
 	font-size:20;
 	margin:0 auto;
 	width: 50%;
 }
-h2{
+h2:not(#voicemail){
 	letter-spacing: 0.15em;
-	margin-top: 1em;
-	margin-bottom: 0;
+	margin:10px auto;
+	width: 20%;
+	border-bottom: 1px solid rgba(255,239,217, 0.5);
 }
 a::before{
 	content: "•";
@@ -37,19 +38,12 @@ a::before{
 a{
 	font-size:1.25em;
 	color:#ffefd9;
-	text-decoration:bold;
+	text-decoration:none;
 	letter-spacing: 0.15em;
 	margin: 1.25em;
 }
 a:visited{
 	text-decoration: none;
-}
-.divider{
-	border-bottom: 2px solid #ffefd9;
-	margin:10px auto;
-	width: 40%;
-	opacity: 55%;
-
 }
 .push{
 	margin-top: 1.25em;
@@ -64,4 +58,15 @@ a:visited{
 .small{
 	font-size: 0.85em;
 	font-weight: 100;
+}
+.audio{
+	width: 50%;
+	max-width: 400px;
+	max-height: 150px;
+	margin:10px auto;
+}
+.colorblock{
+	background-color: #263c63;
+	padding: 15px;
+	border-radius: 50px;
 }
