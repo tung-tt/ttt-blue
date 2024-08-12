@@ -11,6 +11,9 @@ header{
 	background-color: #06070f;
 	width: 100%;
 	padding: 15px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
 }
 nav > ul {
     display: flex;
@@ -24,12 +27,12 @@ ul li{
     padding: 0;
 }
 img{
+	z-index: 2;
 	margin: 0 auto ;
 	margin-top: 5%;
 	display: flex;
 	width: 12em;
 	height: 12em;
-	object-fit: cover;
 	border-radius: 50%;
 	filter: sepia(80%);
 }
@@ -37,6 +40,7 @@ img{
 	width: 80%;
 	max-width: 750px;
 	margin: 10px auto;
+	padding-top: 5px;
 }
 body{
 	text-align: center;
