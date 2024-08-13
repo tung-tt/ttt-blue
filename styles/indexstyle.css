@@ -50,7 +50,7 @@ body{
 	font-size: 1em;;
 	margin:0 auto;
 }
-h2:not(#voicemail){
+h3:not(#voicemail){
 	letter-spacing: 0.15em;
 	margin:10px auto;
 	width: 20%;
