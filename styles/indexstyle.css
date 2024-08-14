@@ -7,6 +7,15 @@
 	width: device-width ;
 	zoom: 1.0 ;
   }
+#Welcome{
+	margin-top: 10%;
+	justify-content: center;
+}
+#Welcomeblock{
+	display: flex;
+	justify-content:space-evenly;
+	margin: auto;
+}
 header{
 	background-color: #06070f;
 	width: 100%;
@@ -28,19 +37,9 @@ ul li{
 }
 #tungo{
 	z-index: 2;
-	margin: 0 auto ;
-	margin-top: 5%;
 	display: flex;
-	width: 12em;
-	height: 12em;
 	border-radius: 50%;
 	filter: sepia(80%);
-}
-#intro{
-	width: 80%;
-	max-width: 750px;
-	margin: 10px auto;
-	padding-top: 5px;
 }
 body{
 	text-align: center;
@@ -52,9 +51,8 @@ body{
 }
 h2:not(#voicemail){
 	letter-spacing: 0.15em;
-	margin:10px auto;
-	width: 20%;
-	border-bottom: 1px solid rgba(255,239,217, 0.5);
+	border-bottom: 2px solid rgba(255,239,217, 0.5);
+	display: inline;
 }
 a{
 	font-size:1.25em;
@@ -90,14 +88,17 @@ audio{
 	width: 50%;
 }
 .colorblock{
-	background-color: #2b4675;
-	padding-bottom: 2em;
-	padding-right: 2em;
-	padding-left: 2em;
+	background-color: #213558;
+	padding: 2em;
 	border-radius: 25px;
 	border: 5px solid;
 	box-shadow: 10px 15px 15px #06070f;
 }
 figcaption{
 	margin-top: 1em;
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+	margin:  5% auto;
 }
