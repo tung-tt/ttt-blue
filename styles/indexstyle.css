@@ -2,6 +2,15 @@
 	*{
 		scroll-behavior: smooth;
 	}
+@media (max-width: 480px) {
+	#tungo{
+		width: 100px;
+		height: 100px;
+	}
+	body{
+		font-size: 0.5em;
+	}
+}
 }
 @viewport {
 	width: device-width ;
@@ -25,6 +34,8 @@
 	filter: sepia(80%);
 	margin-right: 20px;
 	border: 20px solid #06070f;
+	height: 15vw;
+	width: 15vw;
 }
 header{
 	background-color: #06070f;
@@ -50,7 +61,7 @@ body{
 	background-color:#0d111d;
 	color:#ffefd9;
 	font-family:"Montserrat",sans-serif, 'Courier New', Courier, monospace;
-	font-size: 0.65vw;;
+	font-size: 1em;
 	margin:0 auto;
 }
 h3:not(#voicemail){
