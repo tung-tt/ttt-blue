@@ -49,7 +49,7 @@ body{
 	font-size: 1em;;
 	margin:0 auto;
 }
-h2:not(#voicemail){
+h3:not(#voicemail){
 	letter-spacing: 0.15em;
 	border-bottom: 2px solid rgba(255,239,217, 0.5);
 	display: inline;
