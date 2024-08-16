@@ -16,6 +16,9 @@
 	width: device-width ;
 	zoom: 1.0 ;
   }
+html{
+	box-sizing: border-box;
+}
 #Welcome{
 	text-align: center;
 	margin-top: 1em;
