@@ -20,11 +20,12 @@ body{
 #header{
   float: left;
   position: fixed;
-  width: 30%;
+  width: 20%;
   display: block;
   background-color: lightgray;
   border: 1px solid black;
   overflow: hidden;
+  padding-left: 15px;
 }
 #doctitle{
   font-weight: bold;
@@ -43,7 +44,7 @@ main{
 .main-section{
   float: right;
   border: 1px solid black;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 1rem;
 }
