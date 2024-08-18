@@ -1,0 +1,52 @@
+@media (width <= 750px){
+  *{
+    font-size: 0.95rem;
+  }
+}
+@media (width <= 300px){
+  *{
+    font-size: 0.85rem;
+  }
+}
+/*Now*/
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body{
+  font-family: helvetica, sans-serif, courier;
+  margin: 0;
+}
+#header{
+  float: left;
+  position: fixed;
+  width: 30%;
+  display: block;
+  background-color: lightgray;
+  border: 1px solid black;
+  overflow: hidden;
+}
+#doctitle{
+  font-weight: bold;
+}
+nav > ul{
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+nav > ul li{
+  list-style-type: none;
+  margin-top: 5px;
+}
+main{
+}
+.main-section{
+  float: right;
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.main-section h2{
+  padding-left: 15px;
+}
