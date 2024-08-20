@@ -28,8 +28,8 @@ html{
 	display: flex;
 	justify-content:center; /* Aligns items horizontally*/
 	align-items:center; /* Aligns items vertically*/
-	margin: auto;
 	margin-top: 10%;
+	margin-left: 10%;
 }
 #tungo{
 	z-index: 2;
@@ -61,7 +61,7 @@ ul li{
 }
 body{
 	text-align: center;
-	background-color:#0d111d;
+	background-color:#0b132b;
 	color:#ffefd9;
 	font-family:"Montserrat",sans-serif, 'Courier New', Courier, monospace;
 	font-size: 1em;
@@ -97,13 +97,14 @@ a:visited{
 	font-weight: 100;
 }
 .audio{
-	width: 50%;
-	max-width: 400px;
-	max-height: 150px;
-	margin:10px auto;
+	display: flex;
+	justify-content:center; /* Aligns items horizontally*/
+	flex-direction: column;
+	width: 10%;
+	margin: auto 0;
 }
 audio{
-	width: 80%;
+	width: 100%;
 }
 .colorblock{
 	background-color: #213558;
