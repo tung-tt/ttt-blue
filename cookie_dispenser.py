@@ -1,7 +1,10 @@
 from time import sleep
-# Cookie Program
+# Imported sleep for 1 second delays
+# 🍪 Dispenser Program
+# Introduction Message
 cookies_amount = 0
-
+print('-- WELCOME TO 🍪 --')
+# Cookies Incremental Functon
 def cookie_start(cookies_goal):
     global cookies_amount
     while cookies_amount <= cookies_goal:
@@ -12,12 +15,19 @@ def cookie_start(cookies_goal):
 
 # Main Loop
 while True:
-    print('-- WELCOME TO 🍪 --')
     start = input("Want some cookies?: ").lower()
-    if start == "yes" or start =="go":
-        cookies_goal = int(input("How many cookies do you want?: "))
-        print('--🍪 INITIALIZED--')
-        cookie_start(cookies_goal)
-        break
+    # Switch case instead of if statements, checks corresponding strings from start input
+    match start:
+        case 'yes':
+            cookies_goal = int(input("How many cookies do you want?: "))
+            print('--🍪 INITIALIZED--')
+            # Calls cookies_start function with cookies_goal as limit
+            cookie_start(cookies_goal)
+        case 'stop':
+            print("Fine, get outta here")
+            print('--🍪 ENDING--')
+            break
+        case _:
+            print("Oh, ok... but")
     continue
 
