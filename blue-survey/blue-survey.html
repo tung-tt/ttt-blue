@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bluestyles.css">
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+</head>
+<!--Start-->
+<body>
+  <div class="center">
+  <h1 id="title">Do you like the flavor Blue?</h1>
+  <p id="description">The flavor <strong>blue</strong> shows up in many dessert & nondessert establishments,</pp>
+  <p> like blue raspberry, cotton candy, or just "blue". I like blue quite a lot.</p>
+  </div>
+<!--Form-->
+  <form id="survey-form">
+    <label id="name-label" for="name">What's your <strong>name</strong>?: </label><input id="name" type="text" placeholder="Cobalt Blue" required/>
+    <label id="email-label" for="email">What's your <strong>email</strong>?: </label><input id="email" type="email" placeholder="Cerulean@Bluemail.com" patter="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required/>
+    <label id="number-label" for="number">What <strong>number</strong> is blue?: </label><input id="number" type="number" placeholder="3100" pattern="[0-9]" min="1" max="10" required/>
+    <label id="select-label" for="select">Choose!</label><select id="dropdown">
+      <option value="royalblue">Royal Blue</option>
+      <option value="civilblue">Civil Blue</option>
+      <option value="peasantblue">Peasant Blue</option>
+      <option value="red">Red</option>
+    </select>
+    <label for="radio">Blue</label><input id="radio" name="radio" type="radio"value="blue1"/>
+    <label for="radio2">Not Blue</label><input id="radio2" name="radio" type="radio" value="blue2"/>
+<section>
+    <label for="checkbox1">Light Blue</label><input type="checkbox" id="checkbox1" value="1blue" required/>
+<label for="checkbox12">Dark Blue</label><input type="checkbox" id="checkbox2" value="2blue" required/>
+</section>
+<label>So what's your favorite blue? (Again!): </label>
+  <textarea placeholder="" required/></textarea>
+   <br></br>
+<!--Submission-->
+  <input id="submit" type="submit">
+  </form>
+</body>

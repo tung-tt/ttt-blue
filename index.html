@@ -2,14 +2,64 @@
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="en">
-	<title>Github Index</title>
-	<link rel="stylesheet" href="indexstyle.css">
+	<meta charset="UTF-8">
+	<title>ttt blue</title>
+	<link rel="stylesheet" href="styles/indexstyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,609;1,609&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1>Welcome to ttt.blue!</h1>
-	<p>Hey Tung here! Welcome to my web playground</p>
-	<p>where I mess around making webpages & other stuff!</p>
-	<br></br>
-	<a href="https://tung-tt.github.io/tttblue/blue-survey" id="weblink">- Blue Survey</a>
+<header>
+	<nav id="nav">
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#links">LINKS</a></li>
+			<li><a href="#voicemail">AUDIO</a></li>
+			<li><a href="#blog">BLOG</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="Welcomeblock">
+	<section id="Welcome">
+		<div id="intro" class="colorblock intro">
+			<h2 id="home">Welcome Traveler.</h2>
+			<p class="push large-text">Welcome to my web playground where I mess around making stuff.</p>
+			<p class="large-text"> I'll be updating somewhat often so stop by every now and then 😎</p>
+		</div>
+		<div class="flex-container">
+			<div id="links" class="links">
+				<h2>🔗links</h2>
+				<p><a href="https://ttt.blue/blue-survey/blue-survey" id="weblink" target="_blank">🥶&nbsp;Blue Survey</a></p>
+				<p><a href="https://ttt.blue/lore/lorepage" id="weblink" target="_blank">🧐&nbsp;Tungo Lore</a></p>
+				<p><a href="https://ttt.blue/tungoworld" id="weblink" target="_blank">🤠&nbsp;World Documentation</a></p>
+				<p><a href="https://ttt.gallery/" id="weblink" target="_blank">😊&nbsp;Art Portfolio</a></p>
+			</div>
+			<div id="paragraph" class="colorblock intro">
+				<h2 style="display: inline;">Some Links!</h2>
+				<p>These are links to some projects I've been messing with!</p>
+				<p>Some websites, apps, and games check them out.</p>
+			</div>
+		</div>
+	</section>
+	<div id="tungdrawing">
+		<img id="tungo" src="https://ttt.blue/hedraw.gif" alt="tungo-drawing">
+	</div>
+	<section class="audio colorblock">
+		<h2 id="voicemail">📧&nbsp;Voicemails</h2>
+		<p>🔊&nbsp;Some voice messages :)</p>
+		<p class="logcaption">-Welcome.mp3</p>
+		<audio controls>
+			<source src="audio/ello.mp3" type="audio/mpeg">
+			Your browser does not support the audio element :c
+		</audio>
+		<p class="logcaption">-8.18.24.mp3</p>
+		<audio id="player" src="audio/8.18.24.mp3" controls></audio>
+	</section>
+</div>
+</br>
 </body>
+<footer>
+	<h5>All Rights Reserved Tingus Tran &trade;</h5>
+</footer>
+</html>
