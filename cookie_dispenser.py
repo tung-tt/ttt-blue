@@ -1,9 +1,9 @@
 from time import sleep
 # Imported sleep for 1 second delays
 # 🍪 Dispenser Program
-# Introduction Message
 cookies_amount = 0
 print('-- WELCOME TO 🍪 --')
+sleep(0.5)
 # Cookies Incremental Functon
 def cookie_start(cookies_goal):
     global cookies_amount
@@ -25,9 +25,12 @@ while True:
             cookie_start(cookies_goal)
         case 'stop':
             print("Fine, get outta here")
+            sleep(0.5)
             print('--🍪 ENDING--')
             break
         case _:
             print("Oh, ok... but")
     continue
 
+sleep(0.5)
+print('--🍪 TERMINATED--')
