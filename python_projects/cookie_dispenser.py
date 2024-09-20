@@ -6,6 +6,7 @@ print('-- WELCOME TO 🍪 --')
 sleep(0.5)
 # Cookies Incremental Functon
 def cookie_start(cookies_goal):
+    # Access cookies_amount from outside
     global cookies_amount
     while cookies_amount <= cookies_goal:
         sleep(1)
