@@ -1,16 +1,22 @@
 from tkinter import *
 # Tkinter practice
-
-# Window Initialize, size set
 root = Tk() # Creates a root widget
-root.title('Tungo GUI')
-root.configure(background = 'white')
-root.minsize(150,150)
-root.maxsize(500,500)
-# Label widget
-text = Label(root, text='Hello World')
-text.pack()
-text2 = Label(root, text = '🍪 Cookie Dispenser')
-text2.pack()
+
+#
+turn_on = Button(root, text="ON")
+turn_on.pack()
+
+turn_off = Button(root, text="OFF")
+turn_off.pack()
+
+volume = Label(root, text="VOLUME")
+volume.pack()
+
+volume_up = Button(root, text="+")
+volume_up.pack()
+
+volume_down = Button(root, text="-")
+volume_down.pack()
+
 # Starts GUI window
 root.mainloop()
